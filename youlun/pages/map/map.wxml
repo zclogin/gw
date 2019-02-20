@@ -1,0 +1,20 @@
+<view class="top">
+  <view>
+    <text class="txt1">过夜车说明</text>
+  </view>
+  <view>
+    <text>过夜停车地址：宝杨路18号（C区停车场）</text>
+  </view>
+  <view>
+    <text>进港收费标准：40元/辆/天</text>
+  </view>
+</view>
+<view class="divider"></view>
+<view>
+  <text class="txt1 top">港区停车场地图导览</text>
+  <view class='map' bindtap='handleTap'>
+    <map latitude="{{latitude}}"
+      longitude="{{longitude}}" markers="{{markers}}" show-location></map>
+  </view>
+</view>
+<view class="divider1"></view>

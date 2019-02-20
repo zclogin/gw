@@ -1,0 +1,36 @@
+/* pages/profile/profile.wxss */
+.avatar{
+  height:267rpx;
+  display: flex; /*使用弹性布局方式*/
+  align-items: center;  /*垂直居中*/
+  margin-left:40rpx;
+}
+.avatar image{
+  width:180rpx;
+  height:180rpx;
+
+}
+.divider{
+  height:20rpx;
+  background:#f1f1f1;
+}
+/* 条目 */
+.cell{
+  background:#fff;
+  font-size:16px;
+}
+.cell-item{
+  padding:20rpx 30rpx;
+  border-bottom:1px solid #ddd;
+  height:63rpx;
+  color:#999;
+}
+.arrow{
+  color:#000;
+}
+.divider1{
+  height:180rpx;
+  background:#f1f1f1;
+}
+
+

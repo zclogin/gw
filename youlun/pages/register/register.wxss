@@ -1,0 +1,45 @@
+/* pages/register/register.wxss */
+page{
+  background-color:white;
+}
+.container>view:first-child{
+  background-color: #FFFFCC;
+  text-align: center;
+}
+.container>view:first-child{
+  font-size: 13px;
+  color:#333;
+}
+.container>form view.a{
+  padding: 10rpx 0rpx 0rpx 20rpx; 
+  margin-left:20rpx; 
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #ccc;
+}
+.container>form view.a>text{
+  padding-top:10rpx; 
+  padding-bottom:15rpx; 
+  width: 30%;
+}
+.container>form view.a>input{
+  width: 100%;
+  padding-top:10rpx; 
+  padding-bottom:15rpx; 
+}
+.btn{
+  display: inline-block;
+}
+.container .rbtn{
+  display: flex;  
+  margin-top: 100rpx;
+}
+.container .rbtn>button{
+  width: 46%;
+}
+.container .rbtn>button:first-child{
+  font-size: 15px;
+}
+.container .rbtn>button:last-child{
+  font-size: 15px;
+}

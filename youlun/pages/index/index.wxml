@@ -1,0 +1,39 @@
+<view class="index-container">
+  <!-- 1.轮播图 -->
+  <view class="slider">
+    <swiper autoplay='true' interval='2500' indicator-dots='true'>
+      <swiper-item  wx:for="{{list}}" wx:key="id">
+        <image src="{{item.img_url}}" lazy-load='true' mode='aspectFill'></image>
+      </swiper-item>
+    </swiper>
+    <!-- 2.公告-->
+    <scroll-view class="announce">
+      <view class="scrolltxt">
+        <view class="marquee_box">
+          <view class="marquee_text" style="transform: translateX(-{{marqueeDistance}}px)">
+            <view>
+              <text>{{text}}</text>
+            </view>
+            <view>
+              <text>{{text2}}</text>
+            </view>
+            <text style="margin-right:{{marquee_margin}}px;"></text>
+            <text style="margin-right:{{marquee_margin}}px;">{{text}}</text>    
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <!-- 3.分割块 -->
+      <view class="divider"></view>
+    <!-- 4.九宫格 -->
+    <text class="txt">常用功能</text>
+    <view class='index-nav'>
+      <view class="nav-item" wx:for="{{navlist}}" wx:key="index">
+        <image src="{{item.img_url}}" lazy-load='true' mode='aspectFill' bindtap='handleTap1' data-id="{{item.id}}"></image>
+        <text>{{item.title}}</text>
+      </view> 
+    </view>
+    <!-- 5.分割快 -->
+    <view class="divider"></view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+/* pages/news/news.wxss */
+page{
+  background-color:#ccc;
+}
+.container .news{
+  width: 100%;
+  background-color: white;
+  border-radius: 4rpx;
+  margin-bottom: 20rpx;
+}
+.container .news>.new1{
+  color:black;
+  font-size: 38rpx;
+  font-weight: bolder;
+}
+.container .news>.new2{
+  color:rgb(6, 36, 173);
+  font-size: 25rpx;
+}
+.container .news>.new3{
+  color:#666;
+  font-size: 33rpx;
+}

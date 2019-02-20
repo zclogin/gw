@@ -1,0 +1,23 @@
+<!--pages/profile/profile.wxml-->
+<view>
+  <!-- 1.头像 -->
+  <view class='avatar'>
+    <image lazy-load='true' mode='aspectFill' src="http://127.0.0.1:3000/avatar.jpg"></image>
+  </view>
+  <!-- 2.订单记录 -->
+  <view class="divider"></view>
+  <view class="cell">
+    <view class="cell-item">订单记录</view>
+    <view class="cell-item arrow">直通车订单记录</view>
+    <view class="cell-item arrow">车辆进港预约记录</view>
+    <view class="cell-item arrow">专车预约记录</view>
+  </view>
+  <!-- 3.船票信息 -->
+  <view class="divider"></view>
+  <view class="cell">
+    <view class="cell-item">船票信息</view>
+    <view class='cell-item arrow' bindtap='handleClick'>绑定用户信息</view>
+    <view class='cell-item arrow'>我的船票</view>
+  </view>
+  <view class="divider1"></view>
+</view>

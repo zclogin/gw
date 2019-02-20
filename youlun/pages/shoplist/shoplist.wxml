@@ -1,0 +1,15 @@
+<!--pages/shoplist/shoplist.wxml-->
+<!-- 美食列表 -->
+<view class="shop" wx:for="{{list}}" wx:key="index">
+  <image src="{{item.img_url}}" lazy-load='true' mode="aspectFill" class='shop-img'></image>
+  <view class="shop-info">
+    <view class="shop-title ell">店铺名称:{{item.dname}}</view>
+    <view class="shop-tel">电话:{{item.dphone}}</view>
+    <view class="shop-address">地址:{{item.daddr}}</view>
+    <view class="shop-time">营业时间:{{item.dtime}}</view>
+  </view>
+  <view class='shop-star'>
+    <view class="star-after">★★★★★</view>
+    <view class="star-before" style="width:{{item.dpoint}}%">★★★★★</view>
+  </view>
+</view>

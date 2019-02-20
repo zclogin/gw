@@ -1,0 +1,35 @@
+/* pages/map/map.wxss */
+.top{
+  margin-left: 20rpx;
+ 
+}
+.divider{
+  background:#f1f1f1;
+  height:30rpx;
+  width:100%;
+}
+text{
+  color:#065aa3;
+  font-size: 32rpx;
+}
+.txt1{
+  color: #999;
+  font-size:33rpx;
+}
+.map{
+  height:500rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+map{
+  width: 100%; 
+  height: 450rpx;
+}
+.divider1{
+  background:#f1f1f1;
+  height:580rpx;
+  width:100%;
+}

@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/shoplist/shoplist",
+    "pages/logs/logs",
+    "pages/news/news",
+    "pages/register/register",
+    "pages/map/map",
+    "pages/mapbig/mapbig" 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1e2c5b",
+    "navigationBarTitleText": "上海邮轮中心小助手",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/img/home.png",
+        "selectedIconPath": "pages/img/home-active.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "行业资讯",
+        "iconPath": "pages/img/news.png",
+        "selectedIconPath": "pages/img/news-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "紧急公告",
+        "iconPath": "pages/img/info.png",
+        "selectedIconPath": "pages/img/info-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "游轮产品",
+        "iconPath": "pages/img/product.png",
+        "selectedIconPath": "pages/img/product-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人中心",
+        "iconPath": "pages/img/my.png",
+        "selectedIconPath": "pages/img/my-active.png"
+      }
+    ]
+  }
+}
